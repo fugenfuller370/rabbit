@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
@@ -62,7 +62,6 @@
 
   <h2>AR-просмотр 3D модели</h2>
 
-  <!-- 🔹 Важно: здесь замени "model.glb" на имя своего файла -->
   <model-viewer
     src="rabbit.glb"
     alt="3D модель"
@@ -75,10 +74,12 @@
     environment-image="neutral"
     background-color="transparent"
     interaction-prompt="auto"
+    animation-name="*"
+    autoplay
     style="--poster-color: transparent;">
   </model-viewer>
 
-  <a class="btn" href="model.glb" download>Скачать модель</a>
+  <a class="btn" href="rabbit.glb" download>Скачать модель</a>
   <p class="hint">📱 Открой в Chrome на Android и нажми «Посмотреть в AR»</p>
 
 </body>
